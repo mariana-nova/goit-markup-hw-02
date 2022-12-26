@@ -20,7 +20,7 @@ header .logo a {
   color: #2196f3;
 }
 header .menu a,
-.contactos a {
+.contacts a {
   font-weight: 500;
   font-size: 14px;
   color: #212121;
@@ -32,76 +32,67 @@ button:hover {
   background-color: #2196f3;
   cursor: pointer;
 }
-header .contactos a:hover {
+header .contacts a:hover {
   color: #2196f3;
 }
-main .titulo {
+
+main .title {
   background-color: #2f303a;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 900;
   color: #ffffff;
 }
 
-main .titulo-contenido {
-  font-family: "Roboto";
-  font-style: normal;
+main .content-title {
   font-weight: 700;
   font-size: 14px;
   color: #212121;
 }
 
-main .contenido {
-  font-family: "Roboto";
-  font-style: normal;
+.content {
   font-weight: 400;
   font-size: 14px;
   color: #757575;
 }
 
-main .titulo-img {
-  font-family: "Roboto";
-  font-style: normal;
+.section-title {
   font-weight: 700;
   font-size: 36px;
   color: #212121;
 }
 
-main .nuestro-equipo {
-  font-family: "Roboto";
-  font-style: normal;
+.our-team {
   font-weight: 700;
   font-size: 36px;
   color: #212121;
+  background-color: #f5f4fa;
 }
 
-main .nombres-integrantes {
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  color: #212121;
+}
+
+.profession {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+}
+
+.button-filter-button {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   color: #212121;
 }
-
-main .profesion {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  color: #757575;
-}
-
-main .imagenes-portafolio {
-  font-family: "Roboto";
-  font-style: normal;
+.images-portafolio {
   font-weight: 700;
   font-size: 18px;
   color: #212121;
 }
 
-main .descripcion-imagen {
-  font-family: "Roboto";
-  font-style: normal;
+.image-description {
   font-weight: 400;
   font-size: 16px;
   color: #757575;
@@ -110,9 +101,7 @@ main .descripcion-imagen {
 footer {
   background-color: #2f303a;
 }
-footer .contactos {
-  font-family: "Roboto";
-  font-style: normal;
+footer .contacts {
   font-weight: 400;
   font-size: 14px;
   color: #ffffff;
