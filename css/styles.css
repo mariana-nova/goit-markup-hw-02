@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap");
+body {
+  background-color: #e5e5e5;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  color: #212121;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+header .logo a {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  color: #2196f3;
+}
+header .menu a,
+.contactos a {
+  font-weight: 500;
+  font-size: 14px;
+  color: #212121;
+}
+header .menu a:hover {
+  color: #2196f3;
+}
+button:hover {
+  background-color: #2196f3;
+  cursor: pointer;
+}
+header .contactos a:hover {
+  color: #2196f3;
+}
+main .titulo {
+  background-color: #2f303a;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+main .titulo-contenido {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #212121;
+}
+
+main .contenido {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #757575;
+}
+
+main .titulo-img {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #212121;
+}
+
+main .nuestro-equipo {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #212121;
+}
+
+main .nombres-integrantes {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #212121;
+}
+
+main .profesion {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+}
+
+main .imagenes-portafolio {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #212121;
+}
+
+main .descripcion-imagen {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+}
+
+footer {
+  background-color: #2f303a;
+}
+footer .contactos {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+footer .logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  color: #2196f3;
+}
+
+button:hover {
+  background-color: #2196f3;
+  cursor: pointer;
+}
