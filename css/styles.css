@@ -16,15 +16,18 @@ body {
   line-height: 1em;
 }
 
-.current {
-  color: var(--brand-color);
-}
-
 a {
   text-decoration: none;
+  color: inherit;
 }
 li {
   list-style: none;
+}
+.button:focus {
+  color: var(--brand-color);
+}
+.link:focus {
+  color: var(--brand-color);
 }
 .logo {
   font-family: "Raleway";
@@ -33,26 +36,36 @@ li {
   line-height: 1.1;
   color: var(--brand-color);
 }
-header .menu a,
-.contacts a {
+.link {
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--text-color);
+  cursor: pointer;
+}
+.current {
+  color: var(--brand-color);
+}
+.link-contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   color: var(--text-color);
 }
-header .menu a:hover {
-  color: var(--brand-color);
-}
-
-.nav-item {
-  font-weight: 500;
-  font-size: 14px;
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #ffffff;
 }
 button:hover {
   background-color: #2196f3;
   cursor: pointer;
 }
-header .contacts a:hover {
+.link-contacts:hover,
+.link-contacts:focus {
+  color: var(--brand-color);
+}
+.link:hover {
   color: var(--brand-color);
 }
 
@@ -116,7 +129,9 @@ main .content-title {
   font-size: 18px;
   line-height: 2;
 }
-
+.images-portafolio > li {
+  cursor: pointer;
+}
 .image-description {
   font-size: 16px;
   color: #757575;
@@ -126,10 +141,11 @@ main .content-title {
 footer {
   background-color: #2f303a;
 }
-footer .contacts {
+.contacts-footer {
   font-size: 14px;
   color: #ffffff;
   line-height: 1.7;
+  font-family: "Roboto";
 }
 
 footer .logo {
@@ -138,6 +154,14 @@ footer .logo {
   font-size: 26px;
   line-height: 1.1;
   color: var(--brand-color);
+}
+address {
+  font-style: normal;
+}
+.contacts-footer:hover,
+.contacts-footer:focus {
+  color: var(--brand-color);
+  cursor: pointer;
 }
 
 .filter-button:hover {
