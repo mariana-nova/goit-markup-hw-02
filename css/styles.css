@@ -49,13 +49,14 @@ li {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
-  color: var(--text-color);
+  color: #757575;
 }
 .button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
   color: #ffffff;
+  background-color: blue;
 }
 button:hover {
   background-color: #2196f3;
@@ -124,6 +125,18 @@ main .content-title {
   font-size: 16px;
   color: #212121;
   line-height: 1.6;
+  border: none;
+  border-radius: 4px;
+}
+.button-blue {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  border: none;
+  border-radius: 4px;
+  background-color: #2196f3;
+  color: #ffffff;
 }
 .images-portafolio {
   font-size: 18px;
